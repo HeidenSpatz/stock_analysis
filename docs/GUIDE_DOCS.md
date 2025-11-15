@@ -10,6 +10,8 @@ This guide defines the mandatory documentation structure for all new files in th
 
 ## Required File Structure
 
+Files with more than four sections should have a table of contents.
+
 ### 1. Header
 - Clear, descriptive title using `# Title` format
 
