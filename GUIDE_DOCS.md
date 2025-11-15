@@ -26,6 +26,9 @@ This guide defines the mandatory documentation structure for all new files in th
 - Keep sections focused and concise
 - Remove redundant information
 
+### 5. Format
+- Use <br><br> after sections for clearer visual seperation 
+
 ## Principles
 - Apply token efficiency: minimal length, essential content only
 - Every word must serve a purpose
