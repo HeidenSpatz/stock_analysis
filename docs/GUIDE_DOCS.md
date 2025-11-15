@@ -10,7 +10,24 @@ This guide defines the mandatory documentation structure for all new files in th
 
 ## Required File Structure
 
-Files with more than four sections should have a table of contents.
+### 0. Table of Contents (Conditional)
+**When Required:**
+- Files with more than 4 main sections (`##` level headings)
+- Documents exceeding 100 lines
+- Files with complex nested hierarchies
+
+**Format:**
+```markdown
+## Table of Contents
+- [Section Name](#section-name)
+  - [Subsection](#subsection)
+```
+
+**Guidelines:**
+- Place immediately after Executive Summary
+- Use auto-linkable anchors (lowercase, hyphens for spaces)
+- Include only `##` and `###` level headings
+- Keep aligned with actual section structure
 
 ### 1. Header
 - Clear, descriptive title using `# Title` format
