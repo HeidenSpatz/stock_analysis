@@ -12,20 +12,22 @@ Configure the stock_analysis project as a proper Python package to enable clean 
 
 ## Package Configuration
 
-- [ ] Create pyproject.toml in project root
-- [ ] Configure project metadata (name, version, description, authors)
-- [ ] Specify Python version requirement (>=3.9)
-- [ ] Move dependencies from requirements.txt to pyproject.toml [project.dependencies]
-- [ ] Move dev dependencies from requirements-dev.txt to pyproject.toml [project.optional-dependencies.dev]
-- [ ] Configure package discovery (find packages in src/)
+- [x] Create pyproject.toml in project root (cat > pyproject.toml)
+- [x] Configure project metadata (name, version, description, authors)
+- [x] Specify Python version requirement (>=3.9)
+- [x] Move dependencies from requirements.txt to pyproject.toml [project.dependencies]
+- [x] Move dev dependencies from requirements-dev.txt to pyproject.toml [project.optional-dependencies.dev]
+- [x] Configure package discovery (find packages in src/)
 
 <br><br>
 
 ## Package Installation
 
-- [ ] Install package in editable mode (pip install -e .)
-- [ ] Verify package installed (pip list | grep stock-analysis)
-- [ ] Test imports work without path manipulation (python -c "from src.data_acquisition import *")
+- [x] Install package in editable mode (pip install -e ".[dev]")
+- [x] Verify package installed (pip list | grep stock)
+- [x] Create src/__init__.py placeholder
+- [x] Create src/data_acquisition.py placeholder for testing
+- [x] Test imports work without path manipulation (python -c "from src.data_acquisition import *")
 
 <br><br>
 
