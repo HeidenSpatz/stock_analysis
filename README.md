@@ -38,11 +38,13 @@ This tool provides end-to-end stock analysis capabilities across five integrated
 
 ```
 stock_analysis/
-├── data/           # Module 1: Data storage
-├── metrics/        # Module 2: Calculation logic
-├── ai_analysis/    # Module 3: AI integration
-├── visualization/  # Module 4: Charts and reports
-└── evaluation/     # Module 5: Final assessment
+├── src/            # Python modules (5 modules)
+├── data/           # SQLite databases (generated)
+├── outputs/        # Excel reports (generated)
+├── config/         # YAML configuration files
+├── templates/      # Excel templates
+├── specs/          # Technical specifications
+└── requirements/   # Requirements documentation
 ```
 
 ## Getting Started
