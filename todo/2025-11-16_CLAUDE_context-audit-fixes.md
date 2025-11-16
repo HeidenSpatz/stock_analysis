@@ -37,8 +37,8 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Remove references to non-existent `metrics/`, `ai_analysis/`, `visualization/`, `evaluation/` directories
 
 ### Fix project-context-auditor.md Path References
-- [ ] Update line 83 to use `.claude/audit/yyyy-mm-dd_context-audit-report.md`
-- [ ] Update line 92 to use `.claude/audit/claude_audit.csv`
+- [x] Update line 83 to use `.claude/audit/yyyy-mm-dd_context-audit-report.md`
+- [x] Update line 92 to use `.claude/audit/claude_audit.csv`
 
 <br><br>
 
