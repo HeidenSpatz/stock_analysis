@@ -147,3 +147,6 @@ config/.env
 # OS-specific
 .DS_Store
 Thumbs.db
+
+# Non-essential materials
+archive/

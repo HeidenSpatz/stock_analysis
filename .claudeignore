@@ -1,0 +1,21 @@
+# Claude Code ignore patterns
+# Files and directories listed here will be ignored by Claude Code
+
+# Non-essential materials
+archive/
+
+# Generated outputs
+outputs/
+data/
+
+# Virtual environment
+.venv/
+venv/
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.bak
+.pytest_cache/
