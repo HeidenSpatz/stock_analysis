@@ -51,9 +51,9 @@ Basic project setup tasks for the stock analysis tool, focusing on directory str
 
 - [x] Create requirements.txt with core dependencies (cat > requirements.txt - contains: yfinance, pandas, numpy, openpyxl, matplotlib, pandas-ta, anthropic, pyyaml, requests, python-dotenv)
 - [x] Create requirements-dev.txt for development tools (cat > requirements-dev.txt - contains: pytest, pytest-cov, black, flake8)
-- [ ] Install dependencies from requirements.txt
-- [ ] Install development dependencies from requirements-dev.txt
-- [ ] Verify all imports work (test in Python REPL)
+- [x] Install dependencies from requirements.txt (pip install -r requirements.txt)
+- [x] Install development dependencies from requirements-dev.txt (pip install -r requirements-dev.txt)
+- [x] Verify all imports work (python -c "import yfinance, pandas, numpy, openpyxl, matplotlib, anthropic, yaml, dotenv; print('All imports successful')")
 
 <br><br>
 
