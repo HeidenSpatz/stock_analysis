@@ -37,10 +37,13 @@ Basic project setup tasks for the stock analysis tool, focusing on directory str
 
 ## Python Environment
 
-- [ ] Create virtual environment (.venv)
-- [ ] Activate virtual environment
-- [ ] Verify Python version (3.9+)
-- [ ] Upgrade pip to latest version
+- [x] Install python3-venv package (sudo apt install python3.12-venv)
+- [x] Verify venv installation (python3 -m venv --help)
+- [x] Create virtual environment (python3 -m venv .venv)
+- [x] Activate virtual environment (source .venv/bin/activate)
+- [x] Verify Python version (which python && python --version) - Python 3.12.3
+- [x] Upgrade pip to latest version (pip install --upgrade pip)
+- [x] Verify pip version (pip --version) - pip 25.3
 
 <br><br>
 
