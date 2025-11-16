@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-**Date:** 2025-11-15
+**Date:** 2025-11-16
 **Version:** 1.0
 **Author:** uweli
 
