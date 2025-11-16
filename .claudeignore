@@ -9,6 +9,9 @@ todo/done/
 outputs/
 data/
 
+# Version control
+.git/
+
 # Virtual environment
 .venv/
 venv/
@@ -20,3 +23,7 @@ __pycache__/
 *.tmp
 *.bak
 .pytest_cache/
+
+# Build artifacts
+*.egg-info/
+.coverage

@@ -14,9 +14,9 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 ## High Priority Tasks (Major Issues)
 
 ### Enhance .claudeignore Coverage
-- [ ] Add `.git/` to .claudeignore
-- [ ] Add `*.egg-info/` to .claudeignore
-- [ ] Add `.coverage` to .claudeignore (if not already present)
+- [x] Add `.git/` to .claudeignore
+- [x] Add `*.egg-info/` to .claudeignore
+- [x] Add `.coverage` to .claudeignore (if not already present)
 
 ### Update CLAUDE.md Dependency Installation
 - [ ] Replace references to `requirements.txt` with `pyproject.toml` installation method
