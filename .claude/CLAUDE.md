@@ -27,15 +27,17 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 ### Git Commit Guidelines
 
 **Commit Categories:**
-- `[CODE]` - Implementation work (src/, main.py, tests/, requirements.txt)
+- `[CODE]` - Implementation work (src/, main.py, tests/)
 - `[CONCEPT]` - Design and architecture (requirements/, specs/, config/, templates/)
 - `[DOC]` - Documentation (docs/, README updates)
+- `[SETUP]` - Environment and tooling (requirements.txt, pyproject.toml, .venv setup, package installation)
 - `[ORGA]` - Project organization (.claude/, todo/, file restructuring, .gitignore)
 
 **Categorization Rules:**
-- `src/`, `main.py`, `tests/`, `requirements.txt` → `[CODE]`
+- `src/`, `main.py`, `tests/` → `[CODE]`
 - `requirements/`, `specs/`, `config/`, `templates/` → `[CONCEPT]`
 - `docs/`, README files → `[DOC]`
+- `requirements.txt`, `requirements-dev.txt`, `pyproject.toml`, package setup → `[SETUP]`
 - `.claude/`, `todo/`, `.gitignore`, directory restructuring → `[ORGA]`
 - Mixed changes → Prefer separate commits; if not feasible, use dominant category
 
