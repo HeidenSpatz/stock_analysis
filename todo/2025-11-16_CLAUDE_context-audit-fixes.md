@@ -63,8 +63,8 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Fix "seperation" → "separation" in GUIDE_DOCS.md line 49
 
 ### Add Missing Table of Contents
-- [ ] Add ToC to README.md (5 sections)
-- [ ] Consider restructuring GUIDE_PROJECT.md to follow standard format
+- [x] Add ToC to README.md (5 sections)
+- [x] Consider restructuring GUIDE_PROJECT.md to follow standard format (already compliant)
 
 ### Add Missing Section Separators
 - [ ] Add `<br><br>` after final section in GUIDE_DOCS.md

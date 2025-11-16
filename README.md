@@ -8,6 +8,13 @@
 
 Excel-based tool for comprehensive stock analysis and investment evaluation, combining data acquisition, metric calculation, AI-powered analysis, visualization, and final evaluation.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Modules](#modules)
+- [Structure](#structure)
+- [Getting Started](#getting-started)
+
 ## Project Overview
 
 This tool provides end-to-end stock analysis capabilities across five integrated modules.
