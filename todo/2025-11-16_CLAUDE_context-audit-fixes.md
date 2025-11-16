@@ -51,8 +51,8 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Remove `plotly` and `openai` references from CLAUDE.md (install when needed)
 
 ### Update GUIDE_TODO.md Categories
-- [ ] Add `SETUP` and `CLAUDE` to categories list (line 22)
-- [ ] Update examples to include these new categories
+- [x] Add `SETUP` and `CLAUDE` to categories list (line 22)
+- [x] Update examples to include these new categories
 
 <br><br>
 

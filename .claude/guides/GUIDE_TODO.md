@@ -19,13 +19,15 @@ Defines the naming scheme, structure, and writing standards for todo files in th
 
 **Components:**
 - `start_date`: YYYY-MM-DD format
-- `category`: CODE | CONCEPT | DOC | ORGA (matching commit categories)
+- `category`: CODE | CONCEPT | DOC | SETUP | CLAUDE | ORGA (matching commit categories)
 - `description`: Brief snake_case description (2-4 words)
 
 **Examples:**
 - `2025-11-16_CODE_implement_metrics_calculator.md`
 - `2025-11-16_CONCEPT_design_analysis_profiles.md`
 - `2025-11-16_DOC_api_documentation.md`
+- `2025-11-16_SETUP_install_dependencies.md`
+- `2025-11-16_CLAUDE_context_audit_fixes.md`
 - `2025-11-16_ORGA_restructure_directories.md`
 
 <br><br>
