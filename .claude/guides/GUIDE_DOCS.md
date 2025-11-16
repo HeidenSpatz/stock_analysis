@@ -46,7 +46,7 @@ This guide defines the mandatory documentation structure for all new files in th
 - Remove redundant information
 
 ### 5. Format
-- Use <br><br> after sections for clearer visual seperation 
+- Use <br><br> after sections for clearer visual separation 
 
 ## Principles
 - Apply token efficiency: minimal length, essential content only

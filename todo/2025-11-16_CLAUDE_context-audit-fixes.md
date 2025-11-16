@@ -59,8 +59,8 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 ## Low Priority Tasks (Cosmetic)
 
 ### Fix Typos
-- [ ] Fix "Recommendet" → "Recommended" in GUIDE_PROJECT.md line 28
-- [ ] Fix "seperation" → "separation" in GUIDE_DOCS.md line 49
+- [x] Fix "Recommendet" → "Recommended" in GUIDE_PROJECT.md line 28
+- [x] Fix "seperation" → "separation" in GUIDE_DOCS.md line 49
 
 ### Add Missing Table of Contents
 - [ ] Add ToC to README.md (5 sections)

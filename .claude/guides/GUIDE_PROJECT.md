@@ -25,5 +25,5 @@ This document outlines the core principles for maintaining an efficient and stre
 - Archived materials remain accessible when needed
 - Claude should routinely ignore the archive folder unless explicitly instructed otherwise
 
-## Recommendet Action:
+## Recommended Action:
 1. Regularly evaluate project components for necessity
