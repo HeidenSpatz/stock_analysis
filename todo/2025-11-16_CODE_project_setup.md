@@ -47,6 +47,19 @@ Basic project setup tasks for the stock analysis tool, focusing on directory str
 
 <br><br>
 
+## VS Code Editor
+
+- [x] Install VS Code on Windows 11 (download from code.visualstudio.com)
+- [x] Install WSL extension in VS Code (ms-vscode-remote.remote-wsl)
+- [x] Open WSL terminal tab in Windows Terminal
+- [x] Navigate to project directory (cd /home/uweli/projects/stock_analysis)
+- [x] Activate virtual environment (source .venv/bin/activate)
+- [x] Launch VS Code from WSL (code .)
+- [x] Install Python extension when prompted (ms-python.python)
+- [x] Verify VS Code detects .venv interpreter (open a .py file, check bottom-right status bar shows "3.12.3 (.venv)" - note: only visible when .py file is active, not for .md files)
+
+<br><br>
+
 ## Dependencies
 
 - [x] Create requirements.txt with core dependencies (cat > requirements.txt - contains: yfinance, pandas, numpy, openpyxl, matplotlib, pandas-ta, anthropic, pyyaml, requests, python-dotenv)
@@ -59,8 +72,8 @@ Basic project setup tasks for the stock analysis tool, focusing on directory str
 
 ## Testing Infrastructure
 
-- [ ] Create tests/ directory
-- [ ] Create tests/conftest.py for pytest configuration
+- [x] Create tests/ directory (mkdir tests)
+- [ ] Create tests/conftest.py for pytest configuration (cat > tests/conftest.py)
 - [ ] Create tests/__init__.py
 - [ ] Add pytest.ini or pyproject.toml with pytest settings
 - [ ] Run pytest to verify setup (should show 0 tests collected)
