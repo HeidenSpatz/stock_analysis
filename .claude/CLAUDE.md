@@ -246,13 +246,20 @@ Defines thresholds for each investment strategy:
 
 ## Documentation Standards
 
-All new documentation files must follow this structure:
-1. **Header:** Clear title with `# Title`
-2. **Metadata:** Date, Version, Author
-3. **Executive Summary:** 1-2 sentence overview
-4. **Table of Contents:** If >4 sections or >100 lines
-5. **Sections:** Hierarchical headings, concise content
-6. **Formatting:** Use `<br><br>` after major sections for visual separation
+When creating documentation files or todo lists, follow the relevant guide:
+
+- **Documentation files:** Follow `.claude/guides/GUIDE_DOCS.md`
+  - Header with clear title
+  - Metadata (Date, Version, Author)
+  - Executive Summary (1-2 sentences)
+  - Table of Contents (if >4 sections or >100 lines)
+  - Hierarchical sections with `<br><br>` separation
+
+- **Todo files:** Follow `.claude/guides/GUIDE_TODO.md`
+  - Naming: `<start_date>_<category>_<description>.md`
+  - Structure per GUIDE_DOCS.md
+  - Specific tasks with active verbs
+  - Store in `/todo` directory
 
 <br><br>
 
