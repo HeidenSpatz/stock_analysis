@@ -52,3 +52,5 @@ This guide defines the mandatory documentation structure for all new files in th
 - Apply token efficiency: minimal length, essential content only
 - Every word must serve a purpose
 - Use bullet points over paragraphs where possible
+
+<br><br>

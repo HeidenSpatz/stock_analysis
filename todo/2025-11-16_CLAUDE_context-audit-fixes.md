@@ -67,9 +67,9 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Consider restructuring GUIDE_PROJECT.md to follow standard format (already compliant)
 
 ### Add Missing Section Separators
-- [ ] Add `<br><br>` after final section in GUIDE_DOCS.md
-- [ ] Add `<br><br>` after final section in GUIDE_PROJECT.md
-- [ ] Add `<br><br>` after final section in GUIDE_TODO.md
+- [x] Add `<br><br>` after final section in GUIDE_DOCS.md
+- [x] Add `<br><br>` after final section in GUIDE_PROJECT.md
+- [x] Add `<br><br>` after final section in GUIDE_TODO.md
 
 <br><br>
 

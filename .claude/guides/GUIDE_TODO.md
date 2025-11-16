@@ -78,3 +78,5 @@ Todo files must follow the documentation standards defined in `.claude/guides/GU
 ## Location
 
 Store todo files in `/todo` directory (excluded from Git via .gitignore).
+
+<br><br>

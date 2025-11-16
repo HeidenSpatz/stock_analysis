@@ -27,3 +27,5 @@ This document outlines the core principles for maintaining an efficient and stre
 
 ## Recommended Action:
 1. Regularly evaluate project components for necessity
+
+<br><br>
