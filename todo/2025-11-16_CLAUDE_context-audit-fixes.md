@@ -48,8 +48,7 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Change date from 2025-11-15 to 2025-11-16
 
 ### Sync pyproject.toml Dependencies
-- [ ] Add `plotly` to dependencies in pyproject.toml
-- [ ] Add `openai` to dependencies in pyproject.toml
+- [x] Remove `plotly` and `openai` references from CLAUDE.md (install when needed)
 
 ### Update GUIDE_TODO.md Categories
 - [ ] Add `SETUP` and `CLAUDE` to categories list (line 22)

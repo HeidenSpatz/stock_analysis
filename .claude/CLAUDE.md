@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Executive Summary
 
-Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yahoo Finance data, calculates comprehensive metrics, performs multi-AI provider analysis (OpenAI/Anthropic), and generates automated Excel reports. Focus on value investing with long-term horizon.
+Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yahoo Finance data, calculates comprehensive metrics, performs AI-powered analysis, and generates automated Excel reports. Focus on value investing with long-term horizon.
 
 <br><br>
 
@@ -71,8 +71,8 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 - **Data Source:** Yahoo Finance (yfinance library, free, no API key needed)
 - **Storage:** SQLite (version control friendly, one `.db` per stock)
 - **Excel Integration:** openpyxl (for report generation)
-- **Visualization:** matplotlib, plotly (charts embedded in Excel)
-- **AI:** Multi-provider (Anthropic Claude, OpenAI GPT-4, configurable)
+- **Visualization:** matplotlib (charts embedded in Excel)
+- **AI:** Anthropic Claude (configurable)
 - **Environment:** Virtual environment in WSL
 
 ### Directory Structure
@@ -103,7 +103,7 @@ stock_analysis/
 - Uses pandas and pandas_ta/TA-Lib
 
 **Module 3: AI Analysis** (`src/ai_analyzer.py`)
-- Multi-provider support (OpenAI, Anthropic via config)
+- AI provider integration via config
 - Fundamental analysis, basic technical pattern recognition
 - **Antifragility risk framework** (Nassim Taleb): downside vulnerability, optionality, black swan exposure, convexity
 - Outputs: narrative reports, scores (0-100), Buy/Hold/Sell + confidence, risk warnings, action items
@@ -173,7 +173,7 @@ pytest --cov=src tests/
 data_source: yahoo_finance
 refresh_interval_days: 30
 analysis_profile: value_investing  # value_investing | growth_stocks | penny_stocks
-ai_provider: anthropic             # openai | anthropic
+ai_provider: anthropic
 ai_budget_limit_eur: 10.0
 historical_data_years: 5
 ```
