@@ -18,6 +18,7 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 - Keep files and file lengths minimal
 - Every element has a cost - maintain only what's essential
 - **Archive folder:** Non-essential materials go to `/archive`. Ignore this folder unless explicitly requested
+- **Completed todos:** Finished todo files go to `/todo/done`. Ignore this folder to focus on active tasks
 
 ### Version Control
 - Project uses Git version control
