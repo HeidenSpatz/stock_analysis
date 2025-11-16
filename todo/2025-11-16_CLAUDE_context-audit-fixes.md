@@ -29,8 +29,8 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] If planned: Update directory structure section (line 85)
 
 ### Fix Cross-References in Specs Files
-- [ ] Update `specs/PROJECT_OVERVIEW.md` lines 111-112 to point to `../.claude/guides/`
-- [ ] Update `specs/ARCHITECTURE.md` lines 33-34 to show `.claude/guides/` instead of `docs/`
+- [x] Update `specs/PROJECT_OVERVIEW.md` lines 111-112 to point to `../.claude/guides/`
+- [x] Update `specs/ARCHITECTURE.md` lines 33-34 to show `.claude/guides/` instead of `docs/`
 
 ### Update README.md Directory Structure
 - [ ] Fix lines 41-45 to reflect actual `src/`-based architecture

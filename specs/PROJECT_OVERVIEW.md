@@ -108,5 +108,5 @@ Produces final recommendations and risk assessment
 - [Evaluation](MODULE_EVALUATION.md)
 
 ### Guides
-- [Documentation Standards](../docs/GUIDE_DOCS.md)
-- [Project Guidelines](../docs/GUIDE_PROJECT.md)
+- [Documentation Standards](../.claude/guides/GUIDE_DOCS.md)
+- [Project Guidelines](../.claude/guides/GUIDE_PROJECT.md)

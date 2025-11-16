@@ -29,9 +29,10 @@ stock_analysis/
 │   └── {ticker}_analysis.xlsx   # Excel output
 ├── templates/
 │   └── analysis_template.xlsx   # Excel template
-├── docs/
-│   ├── GUIDE_DOCS.md            # Documentation standards
-│   └── GUIDE_PROJECT.md         # Project guidelines
+├── .claude/
+│   └── guides/
+│       ├── GUIDE_DOCS.md        # Documentation standards
+│       └── GUIDE_PROJECT.md     # Project guidelines
 ├── specs/
 │   ├── PROJECT_OVERVIEW.md      # Main overview
 │   ├── ARCHITECTURE.md          # This file
