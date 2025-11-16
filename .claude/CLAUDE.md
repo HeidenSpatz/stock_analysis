@@ -87,7 +87,7 @@ stock_analysis/
 ├── docs/                # Documentation
 ├── requirements/        # Requirements gathering
 ├── specs/               # Technical specifications
-└── main.py              # Orchestrator script
+└── main.py              # Orchestrator script (planned)
 ```
 
 ### Five Module Architecture
@@ -135,6 +135,8 @@ pip install -e .  # or pip install -e ".[dev]" for development dependencies
 ```
 
 ### Running Analysis
+**Note:** main.py is planned for future implementation. Commands below show the intended interface.
+
 ```bash
 # Full analysis (all 5 modules sequentially)
 python main.py --ticker AAPL --profile value_investing

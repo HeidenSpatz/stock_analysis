@@ -24,9 +24,9 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Remove outdated requirements.txt content block at lines 275-288
 
 ### Address main.py References
-- [ ] Decide: implement main.py or mark as planned future work
-- [ ] If planned: Add status indicator in CLAUDE.md Development Commands section (lines 134-146)
-- [ ] If planned: Update directory structure section (line 85)
+- [x] Decide: implement main.py or mark as planned future work
+- [x] If planned: Add status indicator in CLAUDE.md Development Commands section (lines 134-146)
+- [x] If planned: Update directory structure section (line 85)
 
 ### Fix Cross-References in Specs Files
 - [ ] Update `specs/PROJECT_OVERVIEW.md` lines 111-112 to point to `../.claude/guides/`
