@@ -73,11 +73,10 @@ Basic project setup tasks for the stock analysis tool, focusing on directory str
 ## Testing Infrastructure
 
 - [x] Create tests/ directory (mkdir tests)
-- [ ] Create tests/conftest.py for pytest configuration (cat > tests/conftest.py)
-- [ ] Create tests/__init__.py
-- [ ] Add pytest.ini or pyproject.toml with pytest settings
-- [ ] Run pytest to verify setup (should show 0 tests collected)
-- [ ] Create .coveragerc for coverage configuration
+- [x] Create tests/__init__.py (touch tests/__init__.py)
+- [x] Confirm pytest settings exist in pyproject.toml
+- [x] Run pytest to verify setup (pytest --collect-only, should show 0 tests collected)
+- [x] Create .coveragerc for coverage configuration (cat > .coveragerc)
 
 <br><br>
 
