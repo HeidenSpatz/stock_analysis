@@ -32,14 +32,16 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 - `[CONCEPT]` - Design and architecture (requirements/, specs/, config/, templates/)
 - `[DOC]` - Documentation (docs/, README updates)
 - `[SETUP]` - Environment and tooling (requirements.txt, pyproject.toml, .venv setup, package installation)
-- `[ORGA]` - Project organization (.claude/, todo/, file restructuring, .gitignore)
+- `[CLAUDE]` - Claude Code configuration (.claude/agents/, .claude/guides/, .claude/audit/, CLAUDE.md)
+- `[ORGA]` - Project organization (todo/, file restructuring, .gitignore)
 
 **Categorization Rules:**
 - `src/`, `main.py`, `tests/` → `[CODE]`
 - `requirements/`, `specs/`, `config/`, `templates/` → `[CONCEPT]`
 - `docs/`, README files → `[DOC]`
 - `requirements.txt`, `requirements-dev.txt`, `pyproject.toml`, package setup → `[SETUP]`
-- `.claude/`, `todo/`, `.gitignore`, directory restructuring → `[ORGA]`
+- `.claude/agents/`, `.claude/guides/`, `.claude/audit/`, `CLAUDE.md` → `[CLAUDE]`
+- `todo/`, `.gitignore`, directory restructuring → `[ORGA]`
 - Mixed changes → Prefer separate commits; if not feasible, use dominant category
 
 **Commit Message Structure:**
@@ -51,7 +53,9 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 - `[CODE] Implement SQLite schema for historical price data`
 - `[CONCEPT] Define value investing thresholds in analysis profiles`
 - `[DOC] Add API documentation for metrics calculator`
-- `[ORGA] Add commit tagging guidelines to CLAUDE.md`
+- `[SETUP] Add pytest and coverage configuration`
+- `[CLAUDE] Add project-context-auditor agent configuration`
+- `[ORGA] Move completed todos to done directory`
 
 <br><br>
 
