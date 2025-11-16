@@ -33,10 +33,9 @@ Configure the stock_analysis project as a proper Python package to enable clean 
 
 ## Cleanup
 
-- [ ] Remove path manipulation from tests/conftest.py
-- [ ] Update tests/conftest.py to use direct imports
-- [ ] Verify pytest still works (pytest --collect-only)
-- [ ] Consider deprecating requirements.txt/requirements-dev.txt (optional - can keep for compatibility)
+- [x] Remove path manipulation from tests/conftest.py (file was removed, no longer needed)
+- [x] Verify pytest works (pytest --collect-only)
+- [x] Remove requirements.txt and requirements-dev.txt (dependencies now in pyproject.toml)
 
 <br><br>
 
