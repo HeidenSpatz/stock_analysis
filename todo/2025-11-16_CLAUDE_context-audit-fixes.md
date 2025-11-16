@@ -19,9 +19,9 @@ Todo list for addressing issues identified in the 2025-11-16 project context aud
 - [x] Add `.coverage` to .claudeignore (if not already present)
 
 ### Update CLAUDE.md Dependency Installation
-- [ ] Replace references to `requirements.txt` with `pyproject.toml` installation method
-- [ ] Update line 129 to use `pip install -e .` or `pip install -e ".[dev]"`
-- [ ] Remove outdated requirements.txt content block at lines 275-288
+- [x] Replace references to `requirements.txt` with `pyproject.toml` installation method
+- [x] Update line 129 to use `pip install -e .` or `pip install -e ".[dev]"`
+- [x] Remove outdated requirements.txt content block at lines 275-288
 
 ### Address main.py References
 - [ ] Decide: implement main.py or mark as planned future work

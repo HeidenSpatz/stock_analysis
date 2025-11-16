@@ -130,8 +130,8 @@ stock_analysis/
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Install dependencies (once requirements.txt exists)
-pip install -r requirements.txt
+# Install dependencies
+pip install -e .  # or pip install -e ".[dev]" for development dependencies
 ```
 
 ### Running Analysis
@@ -272,25 +272,6 @@ When creating documentation files or todo lists, follow the relevant guide:
   - Structure per GUIDE_DOCS.md
   - Specific tasks with active verbs
   - Store in `/todo` directory
-
-<br><br>
-
-## Dependencies (requirements.txt)
-
-```
-yfinance>=0.2.0
-pandas>=2.0.0
-numpy>=1.24.0
-openpyxl>=3.1.0
-matplotlib>=3.7.0
-plotly>=5.14.0
-pandas-ta>=0.3.14b
-anthropic>=0.18.0
-openai>=1.0.0
-pyyaml>=6.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-```
 
 <br><br>
 
