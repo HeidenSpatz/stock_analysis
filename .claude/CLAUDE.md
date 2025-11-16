@@ -49,6 +49,11 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 [CATEGORY] Brief imperative description
 ```
 
+**Don't add this:**
+  🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+  Co-Authored-By: Claude <noreply@anthropic.com>"&& git status
+
 **Examples:**
 - `[CODE] Implement SQLite schema for historical price data`
 - `[CONCEPT] Define value investing thresholds in analysis profiles`
