@@ -24,6 +24,32 @@ Python-based stock analysis tool with Excel UI. One stock per workbook. Uses Yah
 - SQLite databases (`data/*.db`) and generated reports (`outputs/*.xlsx`) are excluded from Git
 - All Python source, config templates, and documentation are tracked
 
+### Git Commit Guidelines
+
+**Commit Categories:**
+- `[CODE]` - Implementation work (src/, main.py, tests/, requirements.txt)
+- `[CONCEPT]` - Design and architecture (requirements/, specs/, config/, templates/)
+- `[DOC]` - Documentation (docs/, README updates)
+- `[ORGA]` - Project organization (.claude/, todo/, file restructuring, .gitignore)
+
+**Categorization Rules:**
+- `src/`, `main.py`, `tests/`, `requirements.txt` → `[CODE]`
+- `requirements/`, `specs/`, `config/`, `templates/` → `[CONCEPT]`
+- `docs/`, README files → `[DOC]`
+- `.claude/`, `todo/`, `.gitignore`, directory restructuring → `[ORGA]`
+- Mixed changes → Prefer separate commits; if not feasible, use dominant category
+
+**Commit Message Structure:**
+```
+[CATEGORY] Brief imperative description
+```
+
+**Examples:**
+- `[CODE] Implement SQLite schema for historical price data`
+- `[CONCEPT] Define value investing thresholds in analysis profiles`
+- `[DOC] Add API documentation for metrics calculator`
+- `[ORGA] Add commit tagging guidelines to CLAUDE.md`
+
 <br><br>
 
 ## Architecture
